@@ -31,10 +31,18 @@
         </activity>
 
         <activity android:name=".sharedpreference.StorePrimitive">
-            <intent-filter>
-`````        <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
+        </activity>
+
+        <activity android:name=".InternalExternal.QuickNote">
+
+        </activity>
+
+        <activity android:name=".InternalExternal.NoteDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>
